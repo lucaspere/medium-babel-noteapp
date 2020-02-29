@@ -7,7 +7,11 @@ Abre o arquivo index.html, dentro da pasta `public`, no navegador.
 
 ### Usar o Babeljs para compilar o código
 
-Se você fizer modificações e quiser compilar, use o seguinte comando:
+Se você fizer modificações em um código e quiser compilá-lo, use o seguinte comando sempre que o fazer:
 ```sh
 npx babel src --out-dir:"./public"
+```
+Pode-ser usar a opção `--watch` no final do comando acima para compilar automaticamente sempre que o código é modificado e salvo.
+```sh
+npx babel src --out-dir:"./public" --watch
 ```
